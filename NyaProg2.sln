@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NyaProg2", "NyaProg2\NyaProg2.csproj", "{1E262E45-A283-4AC6-872F-8049A2866133}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5B220F03-8BCF-48BE-AAAC-AAFE030C190A} = {5B220F03-8BCF-48BE-AAAC-AAFE030C190A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NyaProg2Lib", "NyaProg2Lib\NyaProg2Lib.csproj", "{5B220F03-8BCF-48BE-AAAC-AAFE030C190A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NyaProg2Cli", "NyaProg2Cli\NyaProg2Cli.csproj", "{605F172B-C131-402B-8EA5-C6D687F5B0B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5B220F03-8BCF-48BE-AAAC-AAFE030C190A} = {5B220F03-8BCF-48BE-AAAC-AAFE030C190A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E262E45-A283-4AC6-872F-8049A2866133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E262E45-A283-4AC6-872F-8049A2866133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E262E45-A283-4AC6-872F-8049A2866133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E262E45-A283-4AC6-872F-8049A2866133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B220F03-8BCF-48BE-AAAC-AAFE030C190A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B220F03-8BCF-48BE-AAAC-AAFE030C190A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B220F03-8BCF-48BE-AAAC-AAFE030C190A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B220F03-8BCF-48BE-AAAC-AAFE030C190A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{605F172B-C131-402B-8EA5-C6D687F5B0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{605F172B-C131-402B-8EA5-C6D687F5B0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{605F172B-C131-402B-8EA5-C6D687F5B0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{605F172B-C131-402B-8EA5-C6D687F5B0B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE18D2EF-D025-46ED-84F6-4C5B013FA5B4}
+	EndGlobalSection
+EndGlobal
